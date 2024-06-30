@@ -20,5 +20,6 @@ type ResponseError struct {
 }
 
 type NotificationMessage struct {
+  Jsonrpc string `json:"jsonrpc"`
 	Method  string `json:"method"`
 }
